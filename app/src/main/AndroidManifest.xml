@@ -24,12 +24,6 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".service.LocationService"
-            android:enabled="true"
-            android:exported="false"
-            android:foregroundServiceType="location" />
-
     </application>
 
 </manifest>
